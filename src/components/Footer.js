@@ -1,13 +1,13 @@
 import React from 'react'
-import master from './images/master-card.58ca01cb40e9.svg'
-import upi from './images/upi.svg'
-import phonepe from './images/phonepe.10e3b159326b.svg'
-import zest from './images/zest.png'
-import net from './images/net-banking.30382dea75a6.svg'
-import facebook from './images/facebook.svg'
-import twitter from './images/twitter.svg'
-import instagram from './images/instagram.svg'
-import youtube from './images/youtube.svg'
+import master from '../images/master-card.58ca01cb40e9.svg'
+import upi from '../images/upi.svg'
+import phonepe from '../images/phonepe.10e3b159326b.svg'
+import zest from '../images/zest.png'
+import net from '../images/net-banking.30382dea75a6.svg'
+import facebook from '../images/facebook.svg'
+import twitter from '../images/twitter.svg'
+import instagram from '../images/instagram.svg'
+import youtube from '../images/youtube.svg'
 function footer() {
   return (
 <>

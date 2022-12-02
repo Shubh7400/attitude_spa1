@@ -1,6 +1,5 @@
 import React from 'react'
-import images1 from './images/images.png'
-
+import images1 from '../images/images.png'
 function Navbar() {
   return (
     
@@ -21,7 +20,7 @@ function Navbar() {
             <a className="nav-link" href="/">Contact us</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/">Help</a>
+            <a className="nav-link" href="/">Signup</a>
           </li>
         </ul>
         <form className="d-flex">

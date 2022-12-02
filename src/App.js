@@ -1,18 +1,21 @@
 
 import './App.css';
-import Navbar from './Navbar';
-import Slider from './Slider';
-import Pictures from './Pictures';
-import Footer from './Footer';
-
-
+import Navbar from './components/Navbar';
+import Slider from './components/Slider';
+import Pictures from './components/Pictures';
+import Footer from './components/Footer'
+// import Contact from './components/Contact'
+// import Signup from './components/Signup';
 function App() {
   return (
     <>
+  
     <Navbar/>
     <Slider/>
     <Pictures/>
     <Footer/>
+    {/* <Contact/>
+    <Signup/> */}
     
     </>
   )
