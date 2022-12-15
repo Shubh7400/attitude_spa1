@@ -8,6 +8,7 @@ import facebook from '../images/facebook.svg'
 import twitter from '../images/twitter.svg'
 import instagram from '../images/instagram.svg'
 import youtube from '../images/youtube.svg'
+import { Link } from 'react-router-dom'
 function footer() {
   return (
 <>
@@ -56,34 +57,24 @@ function footer() {
           
             <form>
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">{<h5>TRACK ORDER</h5>}</label>
-    <input type="text" class="form-control" placeholder='ORDER ID' id="exampleInputEmail1"/>
+    <label for="exampleInputEmail1" className="form-label">{<h5>TRACK ORDER</h5>}</label>
+    <input type="text" className="form-control" placeholder='ORDER ID' id="exampleInputEmail1"/>
   </div>
-  <button type="submit" class="btn bg-dark text-white btn-lg text-center">Track ORDER</button>
+  <button type="submit" className="btn bg-dark text-white btn-lg text-center">Track ORDER</button>
 </form>
             </div>
         </div>
       </div>
 
-      <div className='container'>
-            <hr/>
-            <div className='row'>
-              <div className='col-md-3 col-sm-3 col-6'>
-            <p>Privacy Policy</p>
-            </div>
-            <div className='col-md-3 col-sm-3 col-4'>
-            <p>Terms&conditions</p>
-            </div>
-            <div className='col-md-3 col-sm-3 col-6'>
-            <p>Cookie Policy</p>
-            </div>
-            <div className='col-md-3 col-sm-3 col-6'>
-            <p>Contact us</p>
-            
-            </div>
-            </div>
-           </div>
-        
+      <div className="container-fluid ">
+ 
+  <div className="row m-5">
+    <hr/>
+    <Link to="/Privacy" className="col m-3 text-dark text-decoration-none">Privacy Policy</Link>
+    <Link to="/Cookies" className="col m-3 text-dark text-decoration-none">Cookie Policy</Link>
+    <Link to="/contact" className="col m-3 text-dark text-decoration-none">Contact Us</Link>
+  </div>
+</div>        
 </>
   )
 }

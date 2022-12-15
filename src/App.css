@@ -28,3 +28,75 @@ height:25px;
 .d-block{
   height:400px;
 }
+.itemsParent{
+  display: flex;
+ 
+}
+
+.ItemsWrapper{
+width: 100%;
+height: 100%;
+margin:10px;
+display: flex;
+flex-direction: column;
+padding: 10px;
+
+}
+
+
+@media screen and (max-width: 400px) { 
+  .itemsParent{
+     display: flex;
+     flex-wrap: wrap;
+  }
+  .ItemsWrapper .itemImage{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}
+@media screen and (max-width: 300px) { 
+  .itemsParent.title{
+     display: flex;
+     flex-wrap: wrap;
+  }
+  
+}
+
+  
+
+
+ .itemImage{
+  height: 100%;
+  width: 100%;
+}
+.title{
+  text-align: center;
+  height: 100%;
+}
+body{
+  background-color: rgb(255, 255, 255);
+}
+.mainimg{
+  height:100%;
+  width:100%;
+  max-height:300px;
+}
+
+.ShirtItems{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 80px;
+
+}
+.Shirtimage{
+  height: 100%;
+  max-height: 200px;
+  margin: 10px;
+}
+.shirtname{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin: 50px;
+}
